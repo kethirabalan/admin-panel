@@ -1,0 +1,12 @@
+<h2>Social Media Manager</h2>
+<form (ngSubmit)="schedulePost()">
+  <div class="form-group">
+    <label for="content">Post Content</label>
+    <textarea id="content" class="form-control" [(ngModel)]="postContent" name="content"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="time">Schedule Time</label>
+    <input id="time" class="form-control" [(ngModel)]="scheduleTime" name="time" type="datetime-local">
+  </div>
+  <button type="submit" class="btn btn-primary">Schedule</button>
+</form>

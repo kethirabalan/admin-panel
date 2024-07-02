@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+  }
+  
+  .row {
+    flex: 1;
+  }
+  
+  main {
+    overflow-y: auto;
+  }
+  
